@@ -1,0 +1,42 @@
+{
+  "name":"Maria Alice",
+  "cref":"222222",
+  "email":"mralice@test",
+  "senha":"123",
+  "dataNascimento":"12/12/1998",
+  "telefone":"81888888",
+  "genero":"Feminino",
+  "atuacao":"Musculação",
+  "img":"https://media.gettyimages.com/id/1211977886/pt/foto/portrait-of-young-woman-in-cross-training-gym.jpg?s=612x612&w=0&k=20&c=y_rnhJ46ov2KS1Pi98cfIQDDQpG9KzOVgiViBJ0P2GA="
+}
+	
+{
+  "name":"Felipe Santos",
+  "cref":"111111",
+  "email":"felipesantos@test",
+  "senha":"123",
+  "dataNascimento":"12/12/1999",
+  "telefone":"81888888",
+  "genero":"Masculino",
+  "atuacao":"Musculação",
+  "img":"https://media.gettyimages.com/id/1324042769/pt/foto/confident-gym-owner.jpg?s=612x612&w=gi&k=20&c=LEKT51ghuPZgVANxTtGYlSdB6p2HZ1Rp-vHe-J2jGvw="
+}
+
+{
+  "name":"Pedro Nascimento",
+  "cref":"222222",
+  "email":"pedronascimento@test",
+  "senha":"123",
+  "dataNascimento":"12/12/1989",
+  "telefone":"81888888",
+  "genero":"Masculino",
+  "atuacao":"Musculação",
+  "img":"https://media.gettyimages.com/id/1324042769/pt/foto/confident-gym-owner.jpg?s=612x612&w=gi&k=20&c=LEKT51ghuPZgVANxTtGYlSdB6p2HZ1Rp-vHe-J2jGvw="
+}
+
+http://localhost:3000/personal/add
+
+
+
+
+

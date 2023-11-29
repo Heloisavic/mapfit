@@ -1,0 +1,76 @@
+.search-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    max-width: 70%;
+    width: 300px; /* Largura do campo de pesquisa para dispositivos desktop */
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container.mobile {
+    width: 100%;
+  }
+  
+  .search-container.mobile .search-results {
+    position: absolute;
+    margin-top: 25%;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .search-results {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    left: 0;
+    margin-top: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adicione essa propriedade para o efeito de sombra */
+    border-radius: 5px; /* Adicione essa propriedade para arredondar as bordas */
+  }
+  
+  .search-results li {
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .search-results li:last-child {
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+  .search-results.single-result {
+    top: calc(100% + 10px);
+    margin-top: -15px;
+  }
+  
+  
+  .search-results li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  @media (max-width: 767px) {
+    /* Estilos para dispositivos móveis */
+    .search-container {
+      max-width: 100%;
+    }
+  }
+  
